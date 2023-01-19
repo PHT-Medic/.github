@@ -5,7 +5,7 @@ In this organization you can find the code for the PHT-meDIC project.
 ## Documentation
 
 More information about the project as well as detailed user and deployment guides can be found in 
-the [documentation](https://pht-medic.github.io/documentation/).
+the [documentation](https://docs.personalhealthtrain.de/).
 
 ## Components
 
