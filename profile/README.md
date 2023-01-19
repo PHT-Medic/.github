@@ -11,13 +11,6 @@ the [documentation](https://docs.personalhealthtrain.de/).
 
 The following section lists the main components of the PHT-meDIC project.
 
-### Global
-Global components/services are neither used exclusive on central nor local/station side.
-
-|           Service            |                                     Repository                                      | Programing Language | Lead                                |
-|:----------------------------:|:-----------------------------------------------------------------------------------:|:-------------------:|:------------------------------------|
-| **Train Container Library**  | [Train-Container-Library](https://github.com/PHT-Medic/train-container-library.git) |       Python        | [migraf](https://github.com/migraf) |
-
 ### Central
 Central components/services (Central UI, Train building, Train Routing, Result Extraction, API, etc.) are individual packages within one monorepo.
 
@@ -27,10 +20,11 @@ Central components/services (Central UI, Train building, Train Routing, Result E
 
 ### Local/Station
 
-|           Service           |                                     Repository                                     | Programing Language   | Lead                                  |
-|:---------------------------:|:----------------------------------------------------------------------------------:|:----------------------|:--------------------------------------|
-|         **Station**         |                  [Station](https://github.com/PHT-Medic/station)                   | Python                | [migraf](https://github.com/migraf)   |
-|       **Desktop App**       |              [Desktop-App](https://github.com/PHT-Medic/desktop-app)               | JavaScript/TypeScript | [tada5hi](https://github.com/tada5hi) |
+|           Service           |                                     Repository                                      | Programing Language   | Lead                                  |
+|:---------------------------:|:-----------------------------------------------------------------------------------:|:----------------------|:--------------------------------------|
+|         **Station**         |                   [Station](https://github.com/PHT-Medic/station)                   | Python                | [migraf](https://github.com/migraf)   |
+|       **Desktop App**       |               [Desktop-App](https://github.com/PHT-Medic/desktop-app)               | JavaScript/TypeScript | [tada5hi](https://github.com/tada5hi) |
+| **Train Container Library** | [Train-Container-Library](https://github.com/PHT-Medic/train-container-library.git) | Python                | [migraf](https://github.com/migraf)   |
 
 ## Third Party Services
 The PHT relies heavily on other great open-source projects. Not only as libraries but also as standalone components of
