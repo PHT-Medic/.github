@@ -49,7 +49,7 @@ UI, Train Building, Train Routing, Result Extraction, API, etc., which supply th
 * `RabbitMQ` - RabbitMQ is a message broker. It is used for the communication between microservices.
 * `Vault` - Vault is a secret storage service for managing and storing sensitive information.
 
-#### Local
+### Local
 Local/Station components/services are packages utilized in local setups by analysts and administrators. The Station 
 repository is used to set up local stations by administrators. The Desktop App implements a released version of
 the local PHT tool, necessary for the encryption of stations and signing/decryption of trains.
