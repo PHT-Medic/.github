@@ -54,11 +54,11 @@ Local/Station components/services are packages utilized in local setups by analy
 repository is used to set up local stations by administrators. The Desktop App implements a released version of
 the local PHT tool, necessary for the encryption of stations and signing/decryption of trains.
 
-| Service                     |                                          Repository                                           | Programing Language | Lead                                  |
-|:----------------------------|:---------------------------------------------------------------------------------------------:|:-------------------:|:--------------------------------------|
-| **Station**                 |                   [PHT-Medic/station](https://github.com/PHT-Medic/station)                   |       Python        | [migraf](https://github.com/migraf)   |
-| **Desktop App**             |              [PHT-Medic/desktop-app](https://github.com/PHT-Medic/desktop-app)                |     TypeScript      | [tada5hi](https://github.com/tada5hi) |
-| **Train Container Library** | [PHT-Medic/train-container-library](https://github.com/PHT-Medic/train-container-library.git) |       Python        | [migraf](https://github.com/migraf)   |
+| Service                     |                                          Repository                                           | Programing Language | Lead                                                   |
+|:----------------------------|:---------------------------------------------------------------------------------------------:|:-------------------:|:-------------------------------------------------------|
+| **Station**                 |                   [PHT-Medic/station](https://github.com/PHT-Medic/station)                   |       Python        | [antidodo](https://github.com/antidodo)                |
+| **Desktop App**             |               [PHT-Medic/desktop-app](https://github.com/PHT-Medic/desktop-app)               |     TypeScript      | [tada5hi](https://github.com/tada5hi)                  |
+| **Train Container Library** | [PHT-Medic/train-container-library](https://github.com/PHT-Medic/train-container-library.git) |       Python        | [Nightknight3000](https://github.com/Nightknight3000)  |
 
 * `Station` - Local airflow instance for processing train images
 * `Desktop App` - GUI to manage key pairs and decrypt results locally
@@ -67,7 +67,7 @@ the local PHT tool, necessary for the encryption of stations and signing/decrypt
 | Third-Party Service | Repository                                          | Programing Language |
 |:--------------------|:----------------------------------------------------|:-------------------:|
 | **Airflow**         | [apache/airflow](https://github.com/apache/airflow) |  Python/TypeScript  |
-| **Authup**          | [tada5hi/authup](https://github.com/tada5hi/authup) |     TypeScript      |
+| **Authup**          | [authup/authup](https://github.com/authup/authup)   |     TypeScript      |
 
 * `Airflow` - An open source, community developed platform to programmatically author,
   schedule and monitor workflows and the primary component of the station.
